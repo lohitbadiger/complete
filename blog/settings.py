@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'crispy_forms',
+        'crispy_forms',
 
     'old',
     'users',
@@ -124,3 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK='bootstrap4' 
+LOGIN_REDIRECT_URL ='new-home'
+
+LOGIN_URL='login'

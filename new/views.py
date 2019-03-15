@@ -25,3 +25,4 @@ def about(request):
 
 def contact(request):
     return render(request, 'new/contact.html')
+    
